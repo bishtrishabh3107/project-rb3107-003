@@ -17,7 +17,7 @@ function ProductClassTemplate({
     <div className="productClass">
       <div className="productMain">
         <div className="productMedia">
-          <h1>{productClass.replaceAll('_', ' ')}</h1>
+          <h1>{productClass}</h1>
           <Img
             fluid={fluid}
             style={{
